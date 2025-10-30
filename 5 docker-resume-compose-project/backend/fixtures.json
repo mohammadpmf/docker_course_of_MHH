@@ -1,0 +1,903 @@
+[
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add skill",
+            "content_type": 7,
+            "codename": "add_skill"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change skill",
+            "content_type": 7,
+            "codename": "change_skill"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete skill",
+            "content_type": 7,
+            "codename": "delete_skill"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view skill",
+            "content_type": 7,
+            "codename": "view_skill"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add project",
+            "content_type": 8,
+            "codename": "add_project"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change project",
+            "content_type": 8,
+            "codename": "change_project"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete project",
+            "content_type": 8,
+            "codename": "delete_project"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view project",
+            "content_type": 8,
+            "codename": "view_project"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add certification",
+            "content_type": 9,
+            "codename": "add_certification"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change certification",
+            "content_type": 9,
+            "codename": "change_certification"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete certification",
+            "content_type": 9,
+            "codename": "delete_certification"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view certification",
+            "content_type": 9,
+            "codename": "view_certification"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add education",
+            "content_type": 10,
+            "codename": "add_education"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change education",
+            "content_type": 10,
+            "codename": "change_education"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete education",
+            "content_type": 10,
+            "codename": "delete_education"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view education",
+            "content_type": 10,
+            "codename": "view_education"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 41,
+        "fields": {
+            "name": "Can add experience",
+            "content_type": 11,
+            "codename": "add_experience"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 42,
+        "fields": {
+            "name": "Can change experience",
+            "content_type": 11,
+            "codename": "change_experience"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 43,
+        "fields": {
+            "name": "Can delete experience",
+            "content_type": 11,
+            "codename": "delete_experience"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 44,
+        "fields": {
+            "name": "Can view experience",
+            "content_type": 11,
+            "codename": "view_experience"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$pOtKDmejqfPx6yfTmXgDeC$btOauNgPr1muzgrAhFxKkciHfKapSgFfEK7g5AkOYSg=",
+            "last_login": "2025-09-29T23:03:41.064Z",
+            "is_superuser": true,
+            "username": "hadi",
+            "first_name": "",
+            "last_name": "",
+            "email": "hadi@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2025-09-29T23:03:34.339Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "resume",
+            "model": "skill"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "resume",
+            "model": "project"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "resume",
+            "model": "certification"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 10,
+        "fields": {
+            "app_label": "resume",
+            "model": "education"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 11,
+        "fields": {
+            "app_label": "resume",
+            "model": "experience"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "124a8rko20momfpnlk3h1wuvykufgfl0",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hCgIODSfc9AZphBqoYmpV0Z765NutDtf-_9l0iwrTVtnZc0kbgILU6_G0J-cNsB3aHdZpnnti4Tyl2RB-1ynImf18P9O6jQ67e2RA4heAyeQjAMOmurcLBmKFQ0WVWcwoiRguLBscFwLmytN-AxZi3eH_LOODE:1v3MuD:AJiNrXFMYvODuPGTG4jYA-QBclNgW8YTPHblLJciXE4",
+            "expire_date": "2025-10-13T23:03:41.065Z"
+        }
+    },
+    {
+        "model": "resume.skill",
+        "pk": 1,
+        "fields": {
+            "name": "Python",
+            "description": "Advanced Python programming with Django and Flask",
+            "created_at": "2025-09-29T23:07:16.567Z",
+            "updated_at": "2025-09-29T23:07:16.567Z"
+        }
+    },
+    {
+        "model": "resume.skill",
+        "pk": 2,
+        "fields": {
+            "name": "JavaScript",
+            "description": "Frontend and backend JavaScript development",
+            "created_at": "2025-09-29T23:07:16.571Z",
+            "updated_at": "2025-09-29T23:07:16.571Z"
+        }
+    },
+    {
+        "model": "resume.skill",
+        "pk": 3,
+        "fields": {
+            "name": "React",
+            "description": "Modern React development with hooks and context",
+            "created_at": "2025-09-29T23:07:16.571Z",
+            "updated_at": "2025-09-29T23:07:16.571Z"
+        }
+    },
+    {
+        "model": "resume.skill",
+        "pk": 4,
+        "fields": {
+            "name": "Docker",
+            "description": "Containerization and orchestration with Docker",
+            "created_at": "2025-09-29T23:07:16.572Z",
+            "updated_at": "2025-09-29T23:07:16.572Z"
+        }
+    },
+    {
+        "model": "resume.skill",
+        "pk": 5,
+        "fields": {
+            "name": "PostgreSQL",
+            "description": "Database design and optimization",
+            "created_at": "2025-09-29T23:07:16.572Z",
+            "updated_at": "2025-09-29T23:07:16.572Z"
+        }
+    },
+    {
+        "model": "resume.project",
+        "pk": 1,
+        "fields": {
+            "title": "E-commerce Platform",
+            "description": "Full-stack e-commerce solution with payment integration",
+            "production_link": "https://example-ecommerce.com",
+            "github_link": "https://github.com/user/ecommerce",
+            "image": "",
+            "created_at": "2025-09-29T23:07:16.573Z",
+            "updated_at": "2025-09-29T23:07:16.573Z",
+            "skills": [
+                1,
+                3,
+                5
+            ]
+        }
+    },
+    {
+        "model": "resume.project",
+        "pk": 2,
+        "fields": {
+            "title": "Task Management App",
+            "description": "React-based task management with real-time updates",
+            "production_link": "https://taskmanager.com",
+            "github_link": "https://github.com/user/taskmanager",
+            "image": "",
+            "created_at": "2025-09-29T23:07:16.578Z",
+            "updated_at": "2025-09-29T23:07:16.578Z",
+            "skills": [
+                1,
+                3,
+                5
+            ]
+        }
+    },
+    {
+        "model": "resume.project",
+        "pk": 3,
+        "fields": {
+            "title": "Weather Dashboard",
+            "description": "Weather forecasting dashboard with data visualization",
+            "production_link": "https://weather-dash.com",
+            "github_link": "https://github.com/user/weather",
+            "image": "",
+            "created_at": "2025-09-29T23:07:16.580Z",
+            "updated_at": "2025-09-29T23:07:16.580Z",
+            "skills": [
+                1,
+                3,
+                5
+            ]
+        }
+    },
+    {
+        "model": "resume.project",
+        "pk": 4,
+        "fields": {
+            "title": "Blog Platform",
+            "description": "Django-based blogging platform with CMS features",
+            "production_link": "https://myblog.com",
+            "github_link": "https://github.com/user/blog",
+            "image": "",
+            "created_at": "2025-09-29T23:07:16.581Z",
+            "updated_at": "2025-09-29T23:07:16.581Z",
+            "skills": [
+                1,
+                2,
+                4
+            ]
+        }
+    },
+    {
+        "model": "resume.project",
+        "pk": 5,
+        "fields": {
+            "title": "API Gateway",
+            "description": "Microservices API gateway with authentication",
+            "production_link": "https://api-gateway.com",
+            "github_link": "https://github.com/user/gateway",
+            "image": "",
+            "created_at": "2025-09-29T23:07:16.582Z",
+            "updated_at": "2025-09-29T23:07:16.582Z",
+            "skills": [
+                5
+            ]
+        }
+    },
+    {
+        "model": "resume.experience",
+        "pk": 1,
+        "fields": {
+            "company": "Tech Corp",
+            "position": "Senior Software Engineer",
+            "description": "Led development of microservices architecture",
+            "start_date": "2022-01-15",
+            "end_date": null,
+            "location": "San Francisco, CA",
+            "company_website": "https://techcorp.com",
+            "is_current": true,
+            "created_at": "2025-09-29T23:07:16.584Z",
+            "updated_at": "2025-09-29T23:07:16.584Z",
+            "skills": [
+                1,
+                5
+            ]
+        }
+    },
+    {
+        "model": "resume.experience",
+        "pk": 2,
+        "fields": {
+            "company": "StartupXYZ",
+            "position": "Full Stack Developer",
+            "description": "Built web applications using React and Django",
+            "start_date": "2020-06-01",
+            "end_date": "2021-12-31",
+            "location": "New York, NY",
+            "company_website": "https://startupxyz.com",
+            "is_current": false,
+            "created_at": "2025-09-29T23:07:16.586Z",
+            "updated_at": "2025-09-29T23:07:16.586Z",
+            "skills": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "model": "resume.experience",
+        "pk": 3,
+        "fields": {
+            "company": "Digital Agency",
+            "position": "Frontend Developer",
+            "description": "Created responsive websites for various clients",
+            "start_date": "2019-03-10",
+            "end_date": "2020-05-30",
+            "location": "Austin, TX",
+            "company_website": "https://digitalagency.com",
+            "is_current": false,
+            "created_at": "2025-09-29T23:07:16.588Z",
+            "updated_at": "2025-09-29T23:07:16.588Z",
+            "skills": [
+                1,
+                4
+            ]
+        }
+    },
+    {
+        "model": "resume.experience",
+        "pk": 4,
+        "fields": {
+            "company": "Freelance",
+            "position": "Web Developer",
+            "description": "Developed custom solutions for small businesses",
+            "start_date": "2018-01-01",
+            "end_date": "2019-02-28",
+            "location": "Remote",
+            "company_website": null,
+            "is_current": false,
+            "created_at": "2025-09-29T23:07:16.589Z",
+            "updated_at": "2025-09-29T23:07:16.589Z",
+            "skills": [
+                2,
+                4,
+                5
+            ]
+        }
+    },
+    {
+        "model": "resume.experience",
+        "pk": 5,
+        "fields": {
+            "company": "InternCorp",
+            "position": "Software Engineering Intern",
+            "description": "Assisted in backend development and testing",
+            "start_date": "2017-06-01",
+            "end_date": "2017-08-31",
+            "location": "Boston, MA",
+            "company_website": "https://interncorp.com",
+            "is_current": false,
+            "created_at": "2025-09-29T23:07:16.590Z",
+            "updated_at": "2025-09-29T23:07:16.590Z",
+            "skills": [
+                1,
+                2,
+                3,
+                5
+            ]
+        }
+    },
+    {
+        "model": "resume.education",
+        "pk": 1,
+        "fields": {
+            "institution": "MIT",
+            "degree": "Master of Science",
+            "field_of_study": "Computer Science",
+            "start_date": "2015-09-01",
+            "end_date": "2017-05-30",
+            "gpa": "3.85",
+            "description": "Specialized in Machine Learning and Distributed Systems",
+            "location": "Cambridge, MA",
+            "created_at": "2025-09-29T23:07:16.592Z",
+            "updated_at": "2025-09-29T23:07:16.592Z"
+        }
+    },
+    {
+        "model": "resume.education",
+        "pk": 2,
+        "fields": {
+            "institution": "Stanford University",
+            "degree": "Bachelor of Science",
+            "field_of_study": "Computer Engineering",
+            "start_date": "2011-09-01",
+            "end_date": "2015-06-15",
+            "gpa": "3.70",
+            "description": "Focus on software engineering and algorithms",
+            "location": "Stanford, CA",
+            "created_at": "2025-09-29T23:07:16.593Z",
+            "updated_at": "2025-09-29T23:07:16.593Z"
+        }
+    },
+    {
+        "model": "resume.education",
+        "pk": 3,
+        "fields": {
+            "institution": "Coursera",
+            "degree": "Professional Certificate",
+            "field_of_study": "Google Cloud Architecture",
+            "start_date": "2021-01-01",
+            "end_date": "2021-06-30",
+            "gpa": null,
+            "description": "Cloud infrastructure and DevOps practices",
+            "location": "Online",
+            "created_at": "2025-09-29T23:07:16.593Z",
+            "updated_at": "2025-09-29T23:07:16.593Z"
+        }
+    },
+    {
+        "model": "resume.education",
+        "pk": 4,
+        "fields": {
+            "institution": "edX",
+            "degree": "MicroMasters",
+            "field_of_study": "Data Science",
+            "start_date": "2020-01-01",
+            "end_date": "2020-12-31",
+            "gpa": null,
+            "description": "Statistics, machine learning, and data analysis",
+            "location": "Online",
+            "created_at": "2025-09-29T23:07:16.594Z",
+            "updated_at": "2025-09-29T23:07:16.594Z"
+        }
+    },
+    {
+        "model": "resume.education",
+        "pk": 5,
+        "fields": {
+            "institution": "Local Community College",
+            "degree": "Associate Degree",
+            "field_of_study": "Information Technology",
+            "start_date": "2009-09-01",
+            "end_date": "2011-05-30",
+            "gpa": "3.90",
+            "description": "Foundation in programming and computer systems",
+            "location": "Local City",
+            "created_at": "2025-09-29T23:07:16.594Z",
+            "updated_at": "2025-09-29T23:07:16.594Z"
+        }
+    },
+    {
+        "model": "resume.certification",
+        "pk": 1,
+        "fields": {
+            "name": "AWS Certified Solutions Architect",
+            "issuing_organization": "Amazon Web Services",
+            "issue_date": "2023-03-15",
+            "credential_id": "AWS-SA-123456",
+            "credential_url": "https://aws.amazon.com/verification/123456",
+            "description": "Professional level AWS architecture certification",
+            "created_at": "2025-09-29T23:07:16.595Z",
+            "updated_at": "2025-09-29T23:07:16.595Z"
+        }
+    },
+    {
+        "model": "resume.certification",
+        "pk": 2,
+        "fields": {
+            "name": "Google Cloud Professional Developer",
+            "issuing_organization": "Google Cloud",
+            "issue_date": "2022-11-20",
+            "credential_id": "GCP-DEV-789012",
+            "credential_url": "https://cloud.google.com/certification/verify/789012",
+            "description": "Advanced Google Cloud development practices",
+            "created_at": "2025-09-29T23:07:16.595Z",
+            "updated_at": "2025-09-29T23:07:16.595Z"
+        }
+    },
+    {
+        "model": "resume.certification",
+        "pk": 3,
+        "fields": {
+            "name": "Certified Kubernetes Administrator",
+            "issuing_organization": "Cloud Native Computing Foundation",
+            "issue_date": "2022-08-10",
+            "credential_id": "CKA-345678",
+            "credential_url": "https://cncf.io/certification/verify/345678",
+            "description": "Kubernetes cluster administration and management",
+            "created_at": "2025-09-29T23:07:16.596Z",
+            "updated_at": "2025-09-29T23:07:16.596Z"
+        }
+    },
+    {
+        "model": "resume.certification",
+        "pk": 4,
+        "fields": {
+            "name": "Docker Certified Associate",
+            "issuing_organization": "Docker Inc.",
+            "issue_date": "2021-12-05",
+            "credential_id": "DCA-901234",
+            "credential_url": "https://docker.com/certification/verify/901234",
+            "description": "Container orchestration and Docker best practices",
+            "created_at": "2025-09-29T23:07:16.596Z",
+            "updated_at": "2025-09-29T23:07:16.596Z"
+        }
+    },
+    {
+        "model": "resume.certification",
+        "pk": 5,
+        "fields": {
+            "name": "MongoDB Certified Developer",
+            "issuing_organization": "MongoDB Inc.",
+            "issue_date": "2021-07-18",
+            "credential_id": "MDB-567890",
+            "credential_url": "https://university.mongodb.com/verify/567890",
+            "description": "NoSQL database design and optimization",
+            "created_at": "2025-09-29T23:07:16.596Z",
+            "updated_at": "2025-09-29T23:07:16.596Z"
+        }
+    }
+]

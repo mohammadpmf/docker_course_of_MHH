@@ -1,0 +1,21 @@
+# Core Django packages
+Django==5.2.6
+djangorestframework==3.16.1
+djangorestframework-simplejwt==5.5.1
+django-cors-headers==4.9.0
+djoser==2.3.3
+
+# Database
+psycopg2-binary==2.9.10
+dj-database-url==2.1.0
+
+# API routing
+drf-nested-routers==0.95.0
+
+# Environment management
+python-dotenv==1.1.1
+
+# Image processing
+Pillow==11.3.0
+
+gunicorn==21.2.0
