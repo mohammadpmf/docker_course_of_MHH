@@ -1,5 +1,5 @@
-*.zip
 venv/
-*.sqlite3
+*.sqlite*
+*.zip
 __pycache__/
 *.tar
