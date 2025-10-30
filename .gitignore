@@ -3,3 +3,5 @@ venv/
 *.zip
 __pycache__/
 *.tar
+/staticfiles/
+/media/
