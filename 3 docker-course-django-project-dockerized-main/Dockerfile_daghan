@@ -1,0 +1,25 @@
+# در زمان قطعی شدید اینترنت جهانی داشتم کار میکردم که به داکر هاب
+# دسترسی نداشتیم. ایمیج اوبونتو رو داشتم از قبل
+# پایتون رو هم میشد نصب کرد. این شد که این رو درست کردم.
+# البته خیلی مزخرف و داغونه و دسترسی ها رو حذف کردم و کلی کارهای دیگه
+# که هیچ کودوم اصولی نبودند و فقط میخواستم راه بندازم که خدارو شکر
+# راه افتاد. اما برای آموزش هیچ وقت این فایل رو نگاه نکنم.
+# همون اصلی رو ببینم.
+# حجمش هم که ماشالله 933 مگابایت شده ویندوزی شد واسه خودش.
+# اسم تگش هم اینه
+# daghan 😁
+FROM ubuntu
+RUN apt update
+RUN apt install -y python3 python3-pip python3-venv
+RUN useradd -m app
+WORKDIR /app
+COPY requirements.txt .
+RUN python3 -m venv /venv
+RUN /venv/bin/pip install --upgrade pip
+RUN /venv/bin/pip install -r requirements.txt
+COPY . .
+RUN mkdir users-data
+EXPOSE 8000
+ENV STUDENT_NAME="Mohammad Fallah"
+ENV PATH="/venv/bin:${PATH}"
+ENTRYPOINT ["python3", "manage.py", "runserver", "0.0.0.0:8000"]
